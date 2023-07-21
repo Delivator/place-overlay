@@ -22,7 +22,7 @@ if (window.top !== window.self) {
 }
 
 function updateImage() {
-    overlayImage.src = "https://raw.githubusercontent.com/Delivator/pixel/main/outputs/default_target.png?" + Date.now()
+    overlayImage.src = "https://raw.githubusercontent.com/Delivator/pixel/main/outputs/overlay_target.png?" + Date.now()
 }
 
-setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/Delivator/pixel/main/outputs/default_target.png?" + Date.now()}, 30000);
+setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/Delivator/pixel/main/outputs/overlay_target.png?" + Date.now()}, 30000);
